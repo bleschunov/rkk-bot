@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rkk-bot"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Bleschunov <bleshunov5b@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "rkk_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
